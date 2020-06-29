@@ -1,9 +1,9 @@
 #include <iostream>
 #include <fstream>
-
+using namespace std;
 int main(int argc, char *argv[]){
     if(argc!=4){
-        std::cerr<<"ERROR! Correct usage is ./pixelForm fromFile toFile isLast";
+        cerr<<"ERROR! Correct usage is ./pixelForm fromFile toFile isLast";
     }
     else{
         ofstream myfile.open(argv[2]);
