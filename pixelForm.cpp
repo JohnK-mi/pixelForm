@@ -8,6 +8,7 @@ int main(int argc, char *argv[]){
     else{
         ofstream myfile(argv[2]);
         ifstream frofile(argv[1]);
+        string myText;
         getline(frofile,myText);
         myfile<<myText;
         if(argv[3]=="y"||argv[3]=="Y"){
