@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 
-int main(int argc char *argv[]){
+int main(int argc, char *argv[]){
     if(argc!=4){
         std::cerr<<"ERROR! Correct usage is ./pixelForm fromFile toFile isLast"
     }
