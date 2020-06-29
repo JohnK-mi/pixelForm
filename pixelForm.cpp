@@ -10,7 +10,7 @@ int main(int argc, char *argv[]){
         ifstream frofile(argv[1]);
         string myText;
         getline(frofile,myText);
-        myfile<<"\""<<argv[4]<<"\":"
+        myfile<<"\""<<argv[4]<<"\":";
         myfile<<myText;
         if(argv[3]=="y"||argv[3]=="Y"){
             myfile<<"}";
