@@ -11,10 +11,10 @@ int main(int argc, char *argv[]){
         getline.(frofile,myText);
         myfile<<mytext;
         if(argv[3]=="y"||argv[3]=="Y"){
-            myfile<<"],"
+            myfile<<"],";
         }
         else{
-            myfile<<"]}"
+            myfile<<"]}";
         }
         
     }
