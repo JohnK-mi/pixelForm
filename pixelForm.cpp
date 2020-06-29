@@ -6,8 +6,8 @@ int main(int argc, char *argv[]){
         cerr<<"ERROR! Correct usage is ./pixelForm fromFile toFile isLast";
     }
     else{
-        ofstream myfile.open(argv[2]);
-        ifstream frofile.open(argv[1]);
+        ofstream myfile(argv[2]);
+        ifstream frofile(argv[1]);
         getline.(frofile,myText);
         myfile<<mytext;
         if(argv[3]=="y"||argv[3]=="Y"){
