@@ -6,7 +6,7 @@ int main(int argc, char *argv[]){
         cerr<<"ERROR! Correct usage is ./pixelForm fromFile toFile isLast letter";
     }
     else{
-        ofstream myfile(argv[2]);
+        ofstream myfile(argv[2],ofstream::app);
         ifstream frofile(argv[1]);
         string myText;
         getline(frofile,myText);
